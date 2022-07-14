@@ -1,6 +1,6 @@
 from environs import Env
 
-# инициализируем файл .env.dist
+# инициализируем файл .env
 env = Env()
 env.read_env()
 
